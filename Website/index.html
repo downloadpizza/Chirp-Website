@@ -26,13 +26,13 @@
       loadNavbar: true,
       loadSidebar: true,
       externalLinkTarget: '_self',
-      themeColor: '#87ffe1',
+      themeColor: '#1ebfff',
       repo: 'https://github.com/binkiklou/Chirp',
 
       plugins: [
         function (Hook, VM) {
           Hook.beforeEach (function (HTML) {
-          	let URL = 'https://github.com/binkiklou/Chirp-Website/edit/master/' + VM.route.file
+          	let URL = 'https://github.com/binkiklou/Chirp-Website/edit/master/' + VM.route.file.replace (' ', '%20')
           	let Revision = 'rev1'
           	let Version = '0.0.1'
           	let Edit = '<a href = \'' + URL + '\'>Edit on GitHub</a>\n'

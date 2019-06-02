@@ -1,1 +1,1 @@
-Find a way to retrieve the files/urls from the main repo and load them, instead of creating a static list
+- Find a way to make it so, I don't need the docs in this repo as well

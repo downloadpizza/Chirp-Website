@@ -20,27 +20,6 @@
   <div id = 'app'></div>
 
   <script>
-    // TODO: Find a way to get the files from the main repo by code, instead of making
-    // a static list
-    let Docs = [
-      'Build File.md',
-      'Build.md',
-      'Command Line.md',
-      'Contribute.md',
-      'Errors.md',
-      'Functions.md',
-      'Getting Started.md',
-      'Importing.md',
-      'Inner.md',
-      'Introduction.md',
-      'Modules.md',
-      'Parsing.md',
-      'README.md',
-      'Syntax.md',
-      'Variables.md'
-    ]
-    let _HTML = null
-
     window.$docsify = {
       coverpage: true,
       auto2top: true,
@@ -59,24 +38,6 @@
           	let Edit = '<a href = \'' + URL + '\'>Edit on GitHub</a>\n'
 
           	return HTML
-            		+ '\n----\n'
-            		+ '<footer style = \'color: #999999; font-size: 0.9em;\'>'
-            		+ '<span>v' + Version + ' (' + Revision + ') - </span>'
-            		+ Edit
-            		+ '</footer>'
-
-            _HTML = HTML
-          })
-        },
-
-        function () {
-          Docs.forEach (function (Element) {
-            let URL = 'https://github.com/binkiklou/Chirp/edit/master/Documentation/' + Element
-            let Revision = 'rev1'
-          	let Version = '0.0.1'
-          	let Edit = '<a href = \'' + URL + '\'>Edit on GitHub</a>\n'
-
-          	return _HTML
             		+ '\n----\n'
             		+ '<footer style = \'color: #999999; font-size: 0.9em;\'>'
             		+ '<span>v' + Version + ' (' + Revision + ') - </span>'

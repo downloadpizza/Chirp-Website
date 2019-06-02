@@ -1,7 +1,7 @@
 You just put all these files:
 ```
   - CSS:
-  - Style.css
+    - Style.css
   - Index.html
   - .nojekyll
   - \_coverpage.md

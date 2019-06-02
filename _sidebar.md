@@ -1,7 +1,7 @@
 - Introduction
   - [About](/README.md)
   - [Introduction](/Introduction.md)
-  - [Getting Started](/Getting Started.md)
+  - [Getting Started](/Getting%20Started.md)
   - [Contribute](/Contribute.md)
 
 - Language Guide
@@ -14,7 +14,7 @@
 
 - Language
   - [Parsing](/Parsing)
-  - [Command Line](/Command Line)
+  - [Command Line](/Command%20Line)
   - [Modules](/Modules.md)
-  - [Build](tree//Build.md)
-  - [Build File](tree//Build File.md)
+  - [Build](/Build.md)
+  - [Build File](/Build%20File.md)

@@ -3,11 +3,11 @@
 </p>
 
 # Chirp <small>0.0.1</small>
-> A modern low level programming language.
+> A modern low-level programming language.
 
-* Modern and low level
+* Modern and low-level
 * No external dependencies
 * Simple syntax and easy to use
 
 [GitHub](https://github.com/binkiklou/Chirp)
-[Get Started](https://github.com/binkiklou/Chirp/edit/master/Documentation/README.md)
+[Get Started](https://github.com/binkiklou/Chirp/tree/master/Documentation/README.md)

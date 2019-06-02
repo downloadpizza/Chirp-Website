@@ -24,3 +24,5 @@ You just put all these files:
   - Variables.md
 ```
 Into your website
+
+*Or just do it like this haha*

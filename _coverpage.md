@@ -10,4 +10,4 @@
 * Simple syntax and easy to use
 
 [GitHub](https://github.com/binkiklou/Chirp)
-[Get Started](https://github.com/binkiklou/Chirp/tree/master/Documentation/README.md)
+[Get Started](/Get%20Started)

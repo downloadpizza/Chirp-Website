@@ -16,6 +16,7 @@ The class keyword has stuff in it, I guess. It has the arguments vector of strin
 | 2 | Variable dec&def |
 | 3 | Function def |
 | 4 | Function call |
+| 5 | Inner keyword |
 
 <br>
 

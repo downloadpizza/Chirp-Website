@@ -1,47 +1,19 @@
-## Parser documentation
+# Parser documentation
 
-Obviously, this is a compiler, so like in all compilers there is parser. This file will document how you should parse stuff,
-I think. I'm gonna be honest, I haven't tought about it.
+Like every other compilers, Chirp has a parser. This *obviously* is the documentation for that parser. You might want to check out the parse tree documentation too.
 
-<br>
+# Example
 
-### ``class`` Statement
+> This exemple is with the rewritten parser, but it isn't written yet. lmao
 
-The class keyword has stuff in it, I guess. It has the arguments vector of string, which does a lot of stuff depending on what the function does. Below is all the types of values that the ``int`` Type variable has.
+In this simple example we will see how the parser should behave during parsing.
 
-| ID | Type |
-| -- | ---- |
-| 0 | Variable declaration |
-| 1 | Variable definition |
-| 2 | Variable dec&def |
-| 3 | Function def |
-| 4 | Function call |
-| 5 | Inner keyword |
-
-<br>
-
-## Parsing order
-
-``int: a = 1``
-Let's see the order in which the parser should parse the code above.
-First the words will be disjointed into seperate strings and put into a vector, the vector would look like this:
-
-``int``   ``:``   ``a``   ``=``   ``1``
-
-The process above will be executed by the function ``Parser::Parse()`` declared in the Parser.h file. Then they will be
-interpreted in ``Parsed::Classify`` which will classify the word into the ``Statement`` class, declared in the Parser.h header. After
-this, some function will loop trough every Statement classes of the ``Parsed::Classified`` vector then will rewrite the equivalent of the
-statement in assembly, using thhe ``Variable::Define()`` function, then ``Assembly::Write()``. Don't forget that it has been inited first
-by the ``Assembly::Init()`` function.
-
-So it would go like this:
-```cpp
-  P.Classify();
-  Assembly::Init(&P);
-  P.MakeAssembly();
-  Assembly::Write(&P,Asm);
-  Tools::Build(Asm,OutputFile);
+```chirp
+int: a = 123
 ```
-In the code above, P is a ``Parsed`` object.
 
-After this, the build scripts will be run, and then other adjustement may be made. After this process this might just give up an error or make a runnable executable file.
+First the string will be separated in words, inside a vector. All spaces will be removed.
+
+# Detailed process
+
+This section is n/a

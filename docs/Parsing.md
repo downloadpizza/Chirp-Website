@@ -12,8 +12,18 @@ In this simple example we will see how the parser should behave during parsing.
 int: a = 123
 ```
 
-First the string will be separated in words, inside a vector. All spaces will be removed.
+First the string will be separated in words, inside a vector. All spaces will be removed. Then an unranged list of tokens will be made, 
+those tokens have a type and value such as those in the board bellow:
 
-## Detailed process
+| Example token |
+| --- | --- |
+| Token | VAR_CAST |
+| Lexeme | INT |
 
-This section is n/a
+Then after this unorganized cluster of Tokens has been generated, the parser will go trought it an create a parse tree. The parse tree
+will be very usefull, as it will be used to do stuff such as writing the assembly code. The parse tree contains all the tokens in a 
+hierachical and organized manner.
+
+# Detailed process
+
+This section will be worked on later, be free to write it yourself!

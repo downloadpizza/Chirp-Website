@@ -15,10 +15,15 @@ int: a = 123
 First the string will be separated in words, inside a vector. All spaces will be removed. Then an unranged list of tokens will be made, 
 those tokens have a type and value such as those in the board bellow:
 
-| Example token |
+| Token | Lexeme |
 | --- | --- |
-| Token | VAR_CAST |
-| Lexeme | INT |
+| **VAR_CAST_TOKEN** | int |
+| **TREE_UNDEFINED_TOKEN** | : |
+| **OBJECT_IDENTIFIER_TOKEN** | a |
+| **VALUE_ASSIGN_OPERATOR_TOKEN** | = | 
+| **VALUE_INTERGER_TOKEN** | 123|
+
+These token actually works, but are subjec to change.
 
 Then after this unorganized cluster of Tokens has been generated, the parser will go trought it an create a parse tree. The parse tree
 will be very usefull, as it will be used to do stuff such as writing the assembly code. The parse tree contains all the tokens in a 

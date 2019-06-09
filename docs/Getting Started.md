@@ -14,7 +14,7 @@ Just run it
 
 *For more help building, check out Build.md*
 
-To install Chirp on Linux, simply execute the commands below. This should make an executable: **chirp**.
+To install Chirp on Linux, simply execute the commands below. This should make an executable called **chirp**.
 ```bash
   git clone https://github.com/binkiklou/Chirp.git
   cd Chirp/Tools/Build
@@ -28,8 +28,8 @@ To install Chirp on Linux, simply execute the commands below. This should make a
 ### Syntax highlighting
 
 Coding is way better and more fun when using syntax highlighting. It also helps readability. We've created some packages to different editors, to add Chirp syntax highlighting:
-- [Visual Studio Code] (https://github.com/binkiklou/Chirp-vscode-extension)
-- [Atom] (https://github.com/Dmunch04/AtomChirpLanguage) - TO COME!
+- [Visual Studio Code](https://github.com/binkiklou/Chirp-vscode-extension)
+- [Atom](https://github.com/Dmunch04/AtomChirpLanguage)
 
 <br>
 

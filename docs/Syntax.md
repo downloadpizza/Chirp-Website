@@ -1,11 +1,6 @@
 ## Syntax
 
-Chirp's syntax is very familiar with C-like languages:
-- C
-- C++
-- C#
-- Javascript
-- And more
+Chirp's syntax is a weird mix between C's and Python's syntax, giving a low-level but modern programming language.
 
 An example written in Chirp code:
 ```chirp
@@ -39,17 +34,17 @@ Chirp has a specific set of words, *keywords*, that's reserved in the Chirp lang
 
 In Chirp we support both single line comments:
 ```chirp
-  // I'm a single line comment
+  # I'm a single line comment
 ```
 And multiline comments:
 ```chirp
-  /*
+  ###
     I'm
     a
     multiline
     comment!
     :)
-  */
+ ###
 ```
 
 <br>
@@ -63,6 +58,7 @@ Importing in Chirp is very simple. Here's a simple example:
   import <io>
 ```
 This imports the io library. These are all of the built-in libraries:
+As of june 17 2019, none of theses libraries have been written yet, but they are coming!
 - io
 - eve
 - json

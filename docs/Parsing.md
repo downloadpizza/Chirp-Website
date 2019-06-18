@@ -20,7 +20,7 @@ those tokens have a type and value such as those in the board bellow:
 | **VAR_CAST_TOKEN** | int |
 | **TREE_UNDEFINED_TOKEN** | : |
 | **OBJECT_IDENTIFIER_TOKEN** | a |
-| **VALUE_ASSIGN_OPERATOR_TOKEN** | = | 
+| **VAR_CONFIRM_TOKEN** | = | 
 | **VALUE_INTERGER_TOKEN** | 123|
 
 These token actually works, but are subjec to change.

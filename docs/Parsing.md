@@ -17,7 +17,7 @@ those tokens have a type and value such as those in the board bellow:
 
 | Token | Lexeme |
 | --- | --- |
-| **VAR_CAST_TOKEN** | int |
+| **OBJECT_TYPE_TOKEN** | int |
 | **TREE_UNDEFINED_TOKEN** | : |
 | **OBJECT_IDENTIFIER_TOKEN** | a |
 | **VAR_CONFIRM_TOKEN** | = | 

@@ -1,0 +1,84 @@
+.Coverpage {
+  width: 100%;
+  height: 892px;
+  font-weight: 400;
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  background-color: #1ebfff;
+}
+
+.Coverpage div {
+	top: 0;
+	left: 0;
+	right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+	margin: auto;
+  position: absolute;
+}
+
+.Coverpage a img {
+  padding-bottom: 15px;
+}
+
+.Coverpage h1 {
+  color: #f3f3f3;
+  padding-bottom: 10px;
+}
+
+.Coverpage h1 span {
+  font-size: 56px;
+  font-weight: normal;
+}
+
+.Coverpage h1 span small {
+  font-size: 12px;
+}
+
+.Coverpage .Quote {
+  color: white;
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+
+.Coverpage ul {
+  padding-bottom: 35px;
+}
+
+.Coverpage ul li {
+  color: #f9f9f9;
+  font-size: 16px;
+  list-style: none;
+}
+
+.Coverpage form {
+  display: inline;
+}
+
+.Coverpage form button {
+  width: 115px;
+  height: 45px;
+  cursor: pointer;
+  margin: 6px 4px;
+  font-size: 16px;
+}
+
+.Coverpage form .Fill {
+  color: #1ebfff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.Coverpage form .Border {
+  color: #fff;
+  border-radius: 5px;
+  background: #1ebfff;
+  border: 1.5px solid #fff;
+}
+
+.Coverpage form .Long {
+  width: 130px;
+}

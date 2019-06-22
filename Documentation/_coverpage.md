@@ -5,9 +5,9 @@
 # Chirp <small>0.0.1</small>
 > A modern low-level programming language.
 
-* Modern and low-level
-* No external dependencies
-* Simple syntax and easy to use
+* Modern and low-level.
+* No external dependencies.
+* Simple syntax and easy to use.
 
 [GitHub](https://github.com/binkiklou/Chirp)
-[Get Started](docs/Get%20Started)
+[Get Started](Getting%20Started.md)

@@ -12,8 +12,8 @@
   <title>Chirp - Documentation</title>
 
   <!-- Links -->
+  <link rel = 'stylesheet' href = '../Styling/Documentation.css'>
   <link rel = 'stylesheet' href = 'https://unpkg.com/docsify-themeable/dist/css/theme-simple.css'>
-  <link rel = 'stylesheet' href = 'Styling/Documentation.css'>
 </head>
 
 <body>
@@ -32,7 +32,8 @@
       plugins: [
         function (Hook, VM) {
           Hook.beforeEach (function (HTML) {
-          	let URL = 'https://github.com/binkiklou/Chirp-Website/tree/master/Documentation/' + VM.route.file.replace (' ', '%20')
+          	let URL = 'https://github.com/binkiklou/Chirp-Website/tree/master/Website/Documentation/' + VM.route.file.replace (' ', '%20')
+            console.log (URL)
           	let Revision = 'rev1'
           	let Version = '0.0.1'
           	let Edit = '<a href = \'' + URL + '\'>Edit on GitHub</a>\n'
